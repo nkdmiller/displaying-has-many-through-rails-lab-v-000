@@ -1,6 +1,13 @@
 <% @doctors.each do |doctor|%>
+<<<<<<< HEAD
 <% patient_count = doctor.patients.all.size%>
 <h1><%=doctor.name%></h1>
 <div><%= link_to '#{doctor.name}', doctor_path(doctor) %></div>
 <p><%= "#{patient_count} patients"%></p>
 <%end%>
+=======
+<% patient_count = @doctors.patients.all.size%>
+<h1><%=doctor.name%></h1>
+<div><%= link_to '#{doctor.name}', doctor_path %></div>
+<p><%= "#{patient_count} patients"%></p>
+>>>>>>> 7ee6a7e44bf9a23a1156a1c42f5d32bd59816f18

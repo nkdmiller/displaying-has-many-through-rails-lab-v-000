@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+<<<<<<< HEAD
+=======
+  get 'appointments/index'
+>>>>>>> 7ee6a7e44bf9a23a1156a1c42f5d32bd59816f18
 
   get 'appointments/show'
 
